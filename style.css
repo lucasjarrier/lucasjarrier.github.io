@@ -15,6 +15,12 @@ ul {
   list-style: none;
 }
 
+
+.code{
+  color: #2b421e;
+  padding: 0px 20px 20px;
+}
+
 .menu ul {
   display: flex;
   align-items: flex-end;
@@ -41,6 +47,7 @@ ul {
 
 .titulo{
   font-family: 'Playfair Display SC', georgia;
+  padding: 0px 50px 0px;
   margin-left: 10px;
   font-size: 4rem;
   line-height: 3;
@@ -71,7 +78,7 @@ ul {
   font-family: monospace;
   line-height: 4;
   font-size: 2rem;
-  color: #6ab04c;
+  color:#6ab04c;
   display: flex;
   justify-content:center;
 }
@@ -83,6 +90,7 @@ ul {
   justify-content: center;
   line-height: 1.5;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .skill-descricao section{
@@ -102,6 +110,8 @@ ul {
 .softskill {
   display: flex;
   justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .softskill h2 {
@@ -110,10 +120,15 @@ ul {
   justify-content: center;
 }
 
+.softskill h3 {
+  color: #2b3036;
+  font-size: 1.5rem;
+}
+
 
 .softskill ul { 
   display: block;
-  padding: 10px 0px 80px;
+  padding: 0x 0px 80px;
 }
 
 .softskill ul li{

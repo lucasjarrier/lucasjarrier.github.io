@@ -12,15 +12,16 @@
   <body>
     <nav class="menu">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Hard Skills</a></li>
-        <li><a href="#">Soft Skills</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#titulo">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Hard Skills</a></li>
+        <li><a href="#softskill">Soft Skills</a></li>
+        <li><a href="#contacts">Contact</a></li>
       </ul>
     </nav>
     <h1 class="titulo">Portfolio</h1>
-    <div class="descricao">
+      <h2 class="code">{</h2>
+    <div class="descricao" id="descricao">
       <section>
         <p>Hello, my name is</p>
         <h2>Lucas Jarrier</h2>
@@ -30,7 +31,7 @@
           Study Computer Science at the Federal University of Campina Grande.
         </p>
       </section>
-      <section>
+      <section id="about">
         <h3>"Curiosity" About-me</h3>
         <p>My favorite programming language is Java!</p>
         <p>I am a very outgoing person, and I like to be surrounded by friends!</p>
@@ -38,17 +39,18 @@
         <p>I Love play e-Games and Soccer!</p>
       </section>
     </div>
+    <h2 class="code">};</h2>
     <div class="skill" id="skill">
     <section>
-      <h4>Hard Skills</h4>
+        <h4>Hard Skills</h4>
       <ul>
         <a><i class="fab fa-java"></i></a>
         <a><i class="fab fa-python"></i></a>
         <a><i class="fab fa-js"></i></a>
         <a><i class="fab fa-html5"></i></a>
         <a><i class="fab fa-css3"></i></a>
+      </section>
       </ul>
-    </section>
     </div>
       <div class="skill-descricao">
         <ul>
@@ -59,12 +61,6 @@
           <p>I have between 2 to 4 years of experience.</p>
         </section>        
         <section>
-          <h2>Sring Boot</h2>
-          <p>It is my main backend development framework.</p>
-          <p>I have already developed some applications using Springboot + spring security!.</p>
-          <p>I have between 1 and 3 years of experience.</p>
-        </section>
-        <section>
           <h2>Python</h2>
           <p>It was my initial programming language, around 2015 I had my first contact with programming.</p>
           <p>I have already developed some algorithms, and also artificial intelligence in a discipline in undergraduate.</p>
@@ -72,16 +68,22 @@
           <p>I have between 3 and 4 years of experience with the language.</p>
         </section>
         <section>
-          <h2>JavaScript</h2>
-          <p>It is the programming language that I am studying at the moment, and I have a basic knowledge.</p>
-          <p>I fell in love with the language, and in the future I want to be an expert in JS!</p>
-          <p>I have just under 1 year of experience.</p>
+        <h2>JavaScript</h2>
+        <p>It is the programming language that I am studying at the moment, and I have a basic knowledge.</p>
+        <p>I fell in love with the language, and in the future I want to be an expert in JS!</p>
+        <p>I have just under 1 year of experience.</p>
+      </section>
+        <section>
+          <h2>Sring Boot</h2>
+          <p>It is my main backend development framework.</p>
+          <p>I have already developed some applications using Springboot + spring security!.</p>
+          <p>I have between 1 and 3 years of experience.</p>
         </section>
       </ul>
       </div>
     </section>
-    <div class = "softskill">
-      <h2>Soft Skills ➛</h2>
+    <div class = "softskill" id="softskill">
+        <h2>Soft Skills { </h2>
       <ul>
         <li>• Creative</li>
         <li>• Leadership</li>
@@ -90,10 +92,11 @@
         <li>• Responsible</li>
         <li>• Teamplay</li>
         <li>• Organized</li>
+        <h3>break;</h2>
       </ul>
     </div>
     <section class="grid-section contacts">
-      <div class="contacts">
+      <div class="contacts" id="contacts">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-twitter"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
