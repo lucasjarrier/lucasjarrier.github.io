@@ -1,6 +1,6 @@
 # My personal Portfolio
 
-[Em funcionamento](lucasjarrier.github.io)
+* [Em funcionamento](https://lucasjarrier.github.io)
 
 # authored, Lucas Jarrier. 
 
